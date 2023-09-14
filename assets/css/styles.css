@@ -306,7 +306,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.popular .course-item .title {
+.popular .course-item .title a {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67;
