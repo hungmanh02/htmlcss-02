@@ -32,6 +32,18 @@ a {
   opacity: 0.9;
   cursor: pointer;
 }
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+.break-all {
+  word-break: break-all;
+}
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -307,6 +319,7 @@ a {
   justify-content: space-between;
 }
 .popular .course-item .title a {
+  padding-right: 46px;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67;
