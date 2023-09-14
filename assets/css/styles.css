@@ -419,3 +419,17 @@ a {
   color: #fff;
 }
 /* === Feedback === */
+/* === Features === */
+.features .body {
+  display: flex;
+}
+.features .body .images {
+  display: flex;
+}
+.body .images img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+/* === Features === */
