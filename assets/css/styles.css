@@ -421,15 +421,39 @@ a {
 /* === Feedback === */
 /* === Features === */
 .features .body {
+  margin-top: 200px;
   display: flex;
 }
 .features .body .images {
   display: flex;
+  width: 48%;
 }
 .body .images img {
   width: 270px;
   height: 404px;
   object-fit: cover;
   border-radius: 16px;
+}
+.features .body .content {
+  width: 52%;
+  margin-left: 130px;
+}
+.features .content .title {
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+  color: #171100;
+}
+.features .content .desc {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #5f5b53;
+}
+.features .content .feature-btn {
+  margin-top: 32px;
 }
 /* === Features === */
