@@ -354,7 +354,7 @@ a {
   color: #fff;
   background: var(--primary-color);
 }
-/* === Feedback === */
+/* === Feedback 1 === */
 .feedback {
   margin-top: 135px;
   padding: 96px 0;
@@ -463,4 +463,21 @@ a {
   color: #fff;
   background: var(--primary-color);
 }
-/* === Features === */
+/* === Features 1 === */
+/* === Features 2 === */
+.features-2nd {
+  margin-top: 70px;
+}
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+/* images */
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
+}
+/* content */
+.features-2nd .body .content {
+  width: 49%;
+}
+/* === Features 2 === */
