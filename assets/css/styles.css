@@ -420,13 +420,18 @@ a {
 }
 /* === Feedback === */
 /* === Features === */
-.features .body {
-  margin-top: 200px;
-  display: flex;
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
 }
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+/* features images */
 .features .body .images {
   display: flex;
-  width: 48%;
+  gap: 0 30px;
 }
 .body .images img {
   width: 270px;
@@ -434,17 +439,16 @@ a {
   object-fit: cover;
   border-radius: 16px;
 }
-.features .body .content {
-  width: 52%;
-  margin-left: 130px;
+.features img.lower {
+  margin-top: 34px;
 }
-.features .content .title {
-  font-family: var(--font-heading);
-  font-size: 3.8rem;
-  font-weight: 700;
-  line-height: 1.26;
-  letter-spacing: -0.76px;
-  color: #171100;
+/* features content */
+.features .body .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .features .content .desc {
   margin-top: 16px;
@@ -455,5 +459,8 @@ a {
 }
 .features .content .feature-btn {
   margin-top: 32px;
+  min-width: 137px;
+  color: #fff;
+  background: var(--primary-color);
 }
 /* === Features === */
